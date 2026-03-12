@@ -1,0 +1,10 @@
+*.exe
+*.obj
+highscore.txt
+.gemini/
+.agents/
+_agents/
+.agent/
+_agent/
+brain/
+temp/

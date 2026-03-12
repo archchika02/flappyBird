@@ -2,6 +2,12 @@
 
 A text-based Flappy Bird game built in C++ specifically for the Windows Command Line. This project uses the Windows Console API to provide a smooth, flicker-free gaming experience with a robust menu system and persistent high scores.
 
+## Screenshots
+
+| Main Menu | Gameplay | Game Over | High Score | Levels | Instruction
+| :---: | :---: | :---: | :---: |
+| ![Main Menu](https://via.placeholder.com/300x200?text=Main+Menu) | ![Gameplay](https://via.placeholder.com/300x200?text=Gameplay) | ![Game Over](https://via.placeholder.com/300x200?text=Game+Over) | ![High Score](https://via.placeholder.com/300x200?text=High+Score) | ![Levels](https://via.placeholder.com/300x200?text=Levels) | ![Instruction](https://via.placeholder.com/300x200?text=Instruction) |
+
 ## Features
 
 - **Full Menu System**: 
@@ -32,6 +38,13 @@ A text-based Flappy Bird game built in C++ specifically for the Windows Command 
 2. Double-click `compile.bat` in the project folder.
 3. Once compilation is complete, run `flappybird.exe`.
 
+### Manual Build
+Open the **Developer Command Prompt for VS 2022**, navigate to the project directory, and run:
+```cmd
+cl main.cpp /Fe:flappybird.exe /EHsc
+```
+OR
+
 ### Build with Dev-C++
 1. Open **Dev-C++**.
 2. Go to `File` > `Open` and select `main.cpp`.
@@ -40,5 +53,3 @@ A text-based Flappy Bird game built in C++ specifically for the Windows Command 
 > [!NOTE]
 > Ensure your Dev-C++ is configured to use a TDM-GCC or MinGW compiler that supports the Windows API.
 
-## Credits
-Built as a coding exercise for archival and portfolio purposes.
