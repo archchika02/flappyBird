@@ -4,7 +4,7 @@ A text-based Flappy Bird game built in C++ specifically for the Windows Command 
 
 ## Screenshots
 
-| Main Menu | Instruction | Game Over | High Score | Levels | Gameplay
+| Main Menu | Instruction | High Score | Levels | Game Over | Gameplay
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | ![Main Menu](images/flappy1.png) | ![Gameplay](images/flappy2.png) | ![Game Over](images/flappy3.png) | ![High Score](images/flappy4.png) | ![Levels](images/flappy5.png) | ![Instruction](images/flappy6.png) |
 
